@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chicken_graph"
+    app:startDestination="@id/chickenLoadFragment">
+
+    <fragment
+        android:id="@+id/chickenLoadFragment"
+        android:name="com.aeromarine.logbook.ror.presentation.ui.load.AeroMarineLoadFragment"
+        android:label="ChickenLoadFragment" >
+        <action
+            android:id="@+id/action_chickenLoadFragment_to_chickenV"
+            app:destination="@id/chickenV"
+            app:popUpTo="@id/chicken_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/chickenV"
+        android:name="com.aeromarine.logbook.ror.presentation.ui.view.AeroMarineV"
+        android:label="ChickenV" />
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60889438108",
+    "project_id": "aeromarine-logbook",
+    "storage_bucket": "aeromarine-logbook.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60889438108:android:51f81688666edaa9059a59",
+        "android_client_info": {
+          "package_name": "com.aeromarine.logbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_VjPXyW_71jBxQg34V2N-hBg9YHnXIk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
